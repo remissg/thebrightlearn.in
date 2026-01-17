@@ -7,3 +7,21 @@
     @apply antialiased text-gray-800 bg-white;
   }
 }
+
+/* Custom Slick Slider Dots */
+.slick-dots li button:before {
+  color: #0284c7 !important;
+  /* Primary Color */
+  opacity: 0.25 !important;
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0284c7 !important;
+  opacity: 1 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #0284c7 !important;
+}

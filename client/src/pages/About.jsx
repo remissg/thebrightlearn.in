@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PageHeader from '../components/PageHeader';
 
 const About = () => {
+    useEffect(() => {
+        document.title = "About Us | BrightLearn";
+    }, []);
+
     return (
         <div className="font-sans pt-16">
             <PageHeader

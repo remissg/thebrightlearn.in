@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { CheckCircle } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 
 const Services = () => {
+    useEffect(() => {
+        document.title = "Our Services | BrightLearn";
+    }, []);
+
     const services = [
         {
             title: 'Web Development',

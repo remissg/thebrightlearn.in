@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 
 const Contact = () => {
+    useEffect(() => {
+        document.title = "Contact Us | BrightLearn";
+    }, []);
+
     const handleSubmit = (e) => {
         e.preventDefault();
         alert("Thank you! We will contact you soon.");
