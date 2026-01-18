@@ -36,7 +36,7 @@ const Footer = () => {
                         <ul className="space-y-3 text-sm">
                             <li><Link to="/" className="text-white hover:text-secondary transition-colors block">› Home</Link></li>
                             <li><Link to="/about" className="text-gray-400 hover:text-secondary transition-colors block">› About Us</Link></li>
-                            <li><Link to="/services" className="text-gray-400 hover:text-secondary transition-colors block">› Services</Link></li>
+                            <li><Link to="/internship" className="text-gray-400 hover:text-secondary transition-colors block">› Internships</Link></li>
                             <li><Link to="/contact" className="text-gray-400 hover:text-secondary transition-colors block">› Contact Us</Link></li>
                             <li><Link to="/privacy" className="text-gray-400 hover:text-secondary transition-colors block">› Privacy Policy</Link></li>
                         </ul>
@@ -48,9 +48,6 @@ const Footer = () => {
                         <ul className="space-y-3 text-sm">
                             <li><Link to="/careers" className="text-gray-400 hover:text-secondary transition-colors block">› Careers</Link></li>
                             <li><Link to="/terms" className="text-gray-400 hover:text-secondary transition-colors block">› Terms & Conditions</Link></li>
-                            <li><Link to="/refund" className="text-gray-400 hover:text-secondary transition-colors block">› Return & Refund</Link></li>
-                            <li><Link to="/shipping" className="text-gray-400 hover:text-secondary transition-colors block">› Shipping Policy</Link></li>
-                            <li><Link to="/pricing" className="text-gray-400 hover:text-secondary transition-colors block">› Pricing</Link></li>
                         </ul>
                     </div>
 
@@ -73,7 +70,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-center items-center text-sm text-gray-400">
-                    <p>2026 © All rights reserved by <span className="text-red-500">Uptricks Services Private Limited</span></p>
+                    <p>2026 © All rights reserved by <span className="text-red-500">TheBrightLearn.in powered by YugaYatra Retail Pvt Ltd.</span></p>
                     {/* Back to top button placeholder could go here */}
                 </div>
             </div>
